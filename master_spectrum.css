@@ -1,0 +1,61 @@
+*{
+    background-color: beige;
+    text-align: center;
+}
+
+table{
+
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #e67e22;
+    /* border-radius: 50%; */
+    border-spacing: 15px 15px;
+}
+
+td{
+    border:4px solid black;
+    border-radius: 50%;
+    /* height: 200px; */
+    padding: 100px;
+}
+
+
+/* colors:
+
+#247BA0
+#13bdba
+#e67e22
+#B33771
+#182C61
+
+*/
+
+#one{
+    background: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fimages5.fanpop.com%2Fimage%2Fforum%2F164000%2F164933_1329695875355_full.jpg&f=1&nofb=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#two{
+    background: url(http://fanaru.com/akame-ga-kill/image/78472-akame-ga-kill-night-raids-akame.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#three{
+    background: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F476a9a8a774176ff625bf61a812eecb2%2Ftenor.gif%3Fitemid%3D7396626&f=1&nofb=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#four{
+    background: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Ffanaru.com%2Fanime-girls%2Fimage%2F243185-anime-girls-kawaii-pink-hair-girl-avatar.jpg&f=1&nofb=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#five{
+    background: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fqph.fs.quoracdn.net%2Fmain-qimg-8d24dc3b02054ea7eb8561e7f9fdfb84-c&f=1&nofb=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
