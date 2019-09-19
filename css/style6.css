@@ -7,6 +7,11 @@
     font-family: 'Merriweather', serif;
 }
 
+
+.cls {
+    clear: both;
+}
+
 .main-header{
     
     background-color:coral;
@@ -51,5 +56,57 @@
     font-size: 35px;
 }
 .container{
+    /* box-sizing: border-box; */
+    display: flex;
+}
+
+.container .block {
+    background-color: bisque;
+    width:33.3%;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    padding: 10px;
+
+}
+
+.test-body {
+    border: 5px solid #000;
+    width: 800px;
+    height: 300px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.test-body h1{
+    
+    background-color: aquamarine;
+    font-size: 1.7;
+    
+    position: absolute;
+    top: 20px;
+    left: 50%;
+}
+.contain{
     box-sizing: border-box;
+}
+
+
+.about-para {
+    padding: 15px;
+    width: 75%;
+}
+
+.sidebar{
+    width: 25%;
+    float: right;
+    margin-bottom: 100px;
+    background-color: rgb(126, 126, 126);
+    color: #fff;
+}
+
+.fix-me {
+    position: fixed;
+    background-color: black;
+    color: #fff;
+    top:50%;
 }
