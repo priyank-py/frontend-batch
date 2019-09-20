@@ -1,0 +1,35 @@
+.block {
+    width: 33.3%;
+    float: left;
+    padding: 35px;
+    box-sizing: border-box;
+ 
+
+}
+.block h1{
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.block h1:before{
+    content:"";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 50%; 
+}
+
+.block h1:after{
+    content:"";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    right: 0;
+    top: 50%; 
+}
