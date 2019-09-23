@@ -13,25 +13,32 @@ body{
     left: 50%;
     margin-top: -50px;
     margin-left: -100px;
-    
+    background-color: grey; 
+    display: block;
+    border-radius: 40px;   
 }
 
-.search-box {
-    display: flex;
-}
-
-.search-box input{
+.search{
+    border: none;
+    outline: none;
+    padding: 0;
     width: 0px;
     height: 30px;
     border: none;
     border-radius: 50px;
     transition: 450ms;
+    float:left;
 }
 
-.search-btn button{
+.search-btn {
     height: 30px;
     width : 30px;
+    border: 2px solid black;
     border-radius: 50px;
+    float:right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .search-box:hover >  input{
