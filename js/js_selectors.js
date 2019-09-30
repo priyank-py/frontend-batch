@@ -1,6 +1,6 @@
-// console.log(document.getElementsByTagName// ('div'));
+// console.log(document.getElementsByTagName('div'));
 
-// console.log// (document.getElementsByClassName// ('container'));
+// console.log(document.getElementsByClassName('container'));
 
 // var item = document.getElementById('item')
 
@@ -35,6 +35,6 @@ beforeend
 afterend
 */ 
 console.log(div);
-//parent.insertAdjacentElement('afterend', //div);
+//parent.insertAdjacentElement('afterend', div);
 
  
