@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{
+        background: #eee
+    }
+    form{
+        max-width: 200px;
+        margin: 10% auto;
+        padding: 10px;
+        background: white;
+    }
+    input{
+        margin: 20px auto 0 auto;
+        padding:5px;
+    }
+    #btn{
+        margin-left: 33%
+    }
+    .error{
+        border: 3px solid red;
+    }
+    .success{
+        border: 3px solid green;
+    }
+    
+    </style>
+</head>
+<body>
+    <form class="myform">
+        <input type="text" name="username" id="userid" placeholder="Username">
+        <input type="password" name="password" id="passwd" placeholder="Password">
+         <span class="message"> </span>    
+        <input type="submit" value="Sign in" name="" id="btn">
+        <span class="message"> </span>    
+    </form>
+
+    <script src="../js/basic_form.js"></script>
+</body>
+</html>

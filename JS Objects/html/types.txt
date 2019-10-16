@@ -1,0 +1,2 @@
+premitive datatypes: number, string, bool, null, undefined
+reference types: array, object literal, functions

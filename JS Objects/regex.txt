@@ -1,0 +1,18 @@
+
+.  - Everything except new line
+\w - All word characters a-z A-Z 0-9 _
+\W - All non-word characters
+\d - All digits 0-9
+\D - All non digit
+\b - word boundries
+\B - non word boundries
+\s - all white spaces (space, tab, newline)
+\S - all non white spaces
+
+^ - 
+* - matches the character 0 to infinity
++ - matches the character 1 to infinity
+( ) - to create group
+{} - range of values
+? - make group character optional
+[] - range of characters or characters we expect
