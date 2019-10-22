@@ -1,0 +1,14 @@
+{
+    "player": [
+        {
+            "name": "Tom Brady",
+            "age": 40,
+            "score": 1276
+        },
+        {
+            "name": "Jones",
+            "age": 27,
+            "score": 897
+        }
+    ]
+}
